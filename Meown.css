@@ -33,7 +33,10 @@ button,
 	margin-right: 60px;
 
 }
-
+h2 {
+    margin-top: 100px;
+    background-color: beige;
+}
 
 img{
 	width: 300px;
