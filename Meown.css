@@ -985,17 +985,25 @@ p{
 	margin-right: 5px;
 }
 
-.ui-block-a, .ui-block-b, .ui-block-c {
-        width: calc(33.33% - 20px); /* 33.33% width with margin */
-        margin: 0 10px; /* Adjust margin as needed */
-        box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    }
+#groom_a, #groom_b, #groom_c {
+    width: calc(30% - 10px); /* Each groom element takes up 30% of the screen width with a margin of 10px on each side */
+    margin-left: 5px; /* Left margin */
+    margin-right: 5px; /* Right margin */
+    min-width: none;
+    max-width: none;
+}
 
-    .ui-grid-c:after {
-        clear: both;
-        content: '';
-        display: table;
-    }
+#Haircut, #Comb, #Petting {
+    width: calc(30% - 10px); /* Match the width of groom elements */
+}
+
+#H_text, #C_text, #P_text {
+    width: calc(30% - 10px); /* Match the width of groom elements */
+    min-width: 10px;
+    max-width: none;
+}
+
+	
 
 
 
