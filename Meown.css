@@ -978,7 +978,7 @@ body {
 }
 
 p{
-	min-width: 200px;
+	width: 90vw;
 }
 @media screen and (max-width: 768px) {
     .content-wrapper {
@@ -1014,5 +1014,7 @@ p{
 
     #groom_a, #groom_b, #groom_c{
         width: 90vw;
+	margin-left: 5px;
+	margin-right: 5px;
     }
 
