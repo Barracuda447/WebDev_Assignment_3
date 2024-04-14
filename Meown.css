@@ -1005,7 +1005,9 @@ p{
     width: 100%; /* Ensure text takes up entire width */
 }
 
-
+iframe{
+	width: 50vw;
+}
 
 
 	
