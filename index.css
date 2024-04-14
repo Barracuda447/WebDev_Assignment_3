@@ -318,7 +318,9 @@ footer a {
 
     .image {
         margin-top: 5vw; /* Add spacing between text and image on smaller screens */
-        margin-left: 20px; /* Reset margin for smaller screens */
+        margin-left: 5px; /* Reset margin for smaller screens */
+        min-width: 100px;
+        
     }
     footer {
         position: static; /* Reset positioning for smaller screens */
