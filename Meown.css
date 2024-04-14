@@ -992,17 +992,8 @@ p{
 	min-width: 0px;
 	max-width: 20000px;
     }
-#groom_a{
-	margin-left:0.1515vw;
-	margin-right:0.1515vw;
-}
-#groom_c{
-	margin-left:0.1515vw;
-	margin-right:0.1515vw;
-}
-
 	#Haircut, #Comb, #Petting, #H_text, #C_text, #P_text{
-		width: 33vw;
+		width: 30vw;
 		min-width: 10px;
 		max-width: 20000px;
 		margin: 0px;
