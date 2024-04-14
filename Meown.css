@@ -1008,8 +1008,8 @@ p{
 
 #ct{
 	text-align: center;
-	position: center;
-}
+	display: flex;
+    justify-content: center;}
 
 
 	
