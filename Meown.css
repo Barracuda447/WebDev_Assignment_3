@@ -1019,3 +1019,9 @@ p{
 	min-width: none;
     }
 
+	#Haircut{
+		width: 80vw;
+		min-width: 10px;
+	}
+	
+
