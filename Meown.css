@@ -989,7 +989,7 @@ p{
 	max-width: none;
     }
 
-	#Haircut, #Comb, #Petting{
+	#Haircut, #Comb, #Petting, #H_text, #C_text, #P_text{
 		width: 20vw;
 		min-width: 10px;
 		max-width: none;
