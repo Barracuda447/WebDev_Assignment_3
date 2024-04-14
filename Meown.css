@@ -994,11 +994,11 @@ p{
 }
 
 #Haircut, #Comb, #Petting {
-    width: calc(30% - 10px); /* Match the width of groom elements */
+    width: calc(90% - 10px); /* Match the width of groom elements */
 }
 
 #H_text, #C_text, #P_text {
-    width: calc(30% - 10px); /* Match the width of groom elements */
+    width: calc(95% - 10px); /* Match the width of groom elements */
     min-width: 10px;
     max-width: none;
 }
