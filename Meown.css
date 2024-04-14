@@ -980,4 +980,39 @@ body {
 p{
 	min-width: 200px;
 }
+@media screen and (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+
+    .image {
+        margin-top: 5vw; /* Add spacing between text and image on smaller screens */
+        margin-left: 5px; /* Reset margin for smaller screens */
+        width: 80vw;
+        min-width: 100px;
+        
+    }
+    footer {
+        position: static; /* Reset positioning for smaller screens */
+    }
+    #sleeping {
+        margin-top: -20px;
+    }
+    #jumping{
+        margin-top: -40px;
+    }
+    #biting {
+        margin-top: -40px;
+    }
+    #birthday {
+        margin-top: -40px;
+        width: 170px;
+    }
+    .navbar {
+        font-size: 3.2vw; /* Adjusted font size using vw */
+    }
+
+    #groom_a, #groom_b, #groom_c{
+        width: 90vw;
+    }
 
