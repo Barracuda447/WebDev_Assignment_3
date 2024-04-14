@@ -978,7 +978,7 @@ body {
 }
 
 p{
-	width: 80vw;
+	width: 70vw;
 	margin: 0px;
 	padding: 0px;
 	margin-left: 5px;
@@ -986,7 +986,7 @@ p{
 }
 
 #groom_a, #groom_b, #groom_c{
-        width: 33vw;
+        width: 30vw;
 	margin-left: 0px;
 	margin-right: 0px;
 	min-width: 0px;
