@@ -990,22 +990,18 @@ p{
     width: calc(30% - 10px); /* Each groom element takes up 30% of the screen width with a margin of 10px on each side */
     margin-left: 5px; /* Left margin */
     margin-right: 5px; /* Right margin */
-    min-width: none; /* Reset min-width */
-    max-width: none; /* Reset max-width */
     display: flex;
     flex-direction: column;
 }
 
 #Haircut, #Comb, #Petting {
-    width: 100%; /* Images take up entire width of groom sections */
+    flex-grow: 1; /* Images fill the available vertical space */
     min-width: 0; /* Reset min-width */
-    max-width: none; /* Reset max-width */
 }
 
 #H_text, #C_text, #P_text {
-    width: 100%; /* Text takes up entire width of groom sections */
+    flex-grow: 1; /* Text fills the available vertical space */
     min-width: 0; /* Reset min-width */
-    max-width: none; /* Reset max-width */
 }
 
 
