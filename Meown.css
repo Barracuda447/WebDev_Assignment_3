@@ -979,6 +979,8 @@ body {
 
 p{
 	width: 80vw;
+	margin: 0px;
+	padding: 0px;
 	margin-left: 5px;
 	margin-right: 5px;
 }
