@@ -3,7 +3,6 @@
 body {
     background-color: tan;
     margin: 0;
-    margin-top: 12vw; /* Adjusted margin-top using vw */
 }
 
 #sleeping, #jumping, #biting, #birthday {
@@ -176,7 +175,6 @@ footer a {
 body {
     background-color: tan;
     margin: 0;
-    margin-top: 12vw; /* Adjusted margin-top using vw */
 }
 
 #sleeping, #jumping, #biting, #birthday {
