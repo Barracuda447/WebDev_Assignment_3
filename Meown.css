@@ -982,17 +982,23 @@ p{
 }
 
 #groom_a, #groom_b, #groom_c{
-        width: 33.3vw;
-	margin-left: 5px;
-	margin-right: 5px;
+        width: 33vw;
+	margin-left: 0px;
+	margin-right: 0px;
 	min-width: none;
 	max-width: none;
     }
+#groom_a{
+	margin-left:5px
+}
+#groom_c{
+	margin-right:5px
+}
 
 	#Haircut, #Comb, #Petting, #H_text, #C_text, #P_text{
 		width: 20vw;
 		min-width: 10px;
-		max-width: 300px;
+		max-width: none;
 	}
 
 
@@ -1010,7 +1016,7 @@ p{
     .image {
         margin-top: 5vw; /* Add spacing between text and image on smaller screens */
         margin-left: 5px; /* Reset margin for smaller screens */
-        width: 80vw;
+        width: 30vw;
         min-width: 60px;
         
     }
@@ -1042,7 +1048,13 @@ p{
 	max-width: none;
     }
 
-	#Haircut, #Comb, #Petting, #H_text, #C_text, #P_text{
+	#Haircut, #Comb, #Petting{
+		width: 20vw;
+	}
+	
+	
+	
+	#H_text, #C_text, #P_text{
 		width: 80vw;
 		min-width: 10px;
 		max-width: 300px;
