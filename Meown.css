@@ -977,7 +977,7 @@ body {
     height: auto; /* Set the height to auto to let it adjust based on content */
 }
 
-/* p{
+p{
 	width: 70vw;
 	margin: 0px;
 	padding: 0px;
@@ -986,7 +986,7 @@ body {
 }
 
 #groom_a, #groom_b, #groom_c{
-        width: 30vw;
+        width: 20vw;
 	margin-left: 0px;
 	margin-right: 0px;
 	min-width: 0px;
@@ -997,7 +997,7 @@ body {
 		min-width: 10px;
 		max-width: 20000px;
 		margin: 0px;
-	} */
+	} 
 
 
 
