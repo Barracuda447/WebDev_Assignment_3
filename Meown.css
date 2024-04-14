@@ -978,7 +978,9 @@ body {
 }
 
 p{
-	width: 90vw;
+	width: 80vw;
+	margin-left: 10vw;
+	margin-right: 10vw;
 }
 
 #groom_a, #groom_b, #groom_c{
@@ -996,7 +998,7 @@ p{
 }
 
 	#Haircut, #Comb, #Petting, #H_text, #C_text, #P_text{
-		width: 20vw;
+		width: 30vw;
 		min-width: 10px;
 		max-width: none;
 	}
@@ -1049,7 +1051,7 @@ p{
     }
 
 	#Haircut, #Comb, #Petting{
-		width: 20vw;
+		width: 30vw;
 	}
 	
 	
@@ -1057,7 +1059,7 @@ p{
 	#H_text, #C_text, #P_text{
 		width: 80vw;
 		min-width: 10px;
-		max-width: 300px;
+		max-width: none;
 	}
 	
 
