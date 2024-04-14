@@ -1002,7 +1002,7 @@ p{
 }
 
 	#Haircut, #Comb, #Petting, #H_text, #C_text, #P_text{
-		width: 32vw;
+		width: 25vw;
 		min-width: 10px;
 		max-width: none;
 		margin: 0px;
