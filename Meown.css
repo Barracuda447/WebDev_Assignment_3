@@ -1147,7 +1147,6 @@ button[disabled],
 
 body {
     height: auto; /* Set the height to auto to let it adjust based on content */
-    max-height: 100vh; /* Set a maximum height to ensure it doesn't exceed the viewport height */
 }
 
 p{
