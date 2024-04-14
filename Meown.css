@@ -985,19 +985,17 @@ p{
 	margin-right: 5px;
 }
 
-#groom_a, #groom_b, #groom_c{
-        width: 900px;
-	margin-left: 0px;
-	margin-right: 0px;
-	min-width: 0px;
-	max-width: 20000px;
+.ui-block-a, .ui-block-b, .ui-block-c {
+        width: calc(33.33% - 20px); /* 33.33% width with margin */
+        margin: 0 10px; /* Adjust margin as needed */
+        box-sizing: border-box; /* Include padding and border in the element's total width and height */
     }
-	#Haircut, #Comb, #Petting, #H_text, #C_text, #P_text{
-		width: 30vw;
-		min-width: 10px;
-		max-width: 20000px;
-		margin: 0px;
-	} 
+
+    .ui-grid-c:after {
+        clear: both;
+        content: '';
+        display: table;
+    }
 
 
 
