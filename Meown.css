@@ -980,7 +980,29 @@ body {
 p{
 	width: 90vw;
 }
-@media screen and (max-width: 768px) {
+
+#groom_a, #groom_b, #groom_c{
+        width: 30vw;
+	margin-left: 5px;
+	margin-right: 5px;
+	min-width: none;
+	max-width: none;
+    }
+
+	#Haircut, #Comb, #Petting{
+		width: 20vw;
+		min-width: 10px;
+		max-width: none;
+	}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
     .content-wrapper {
         flex-direction: column; /* Stack items vertically on smaller screens */
     }
