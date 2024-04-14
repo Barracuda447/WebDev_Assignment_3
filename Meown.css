@@ -989,7 +989,7 @@ p{
         margin-top: 5vw; /* Add spacing between text and image on smaller screens */
         margin-left: 5px; /* Reset margin for smaller screens */
         width: 80vw;
-        min-width: 100px;
+        min-width: 60px;
         
     }
     footer {
